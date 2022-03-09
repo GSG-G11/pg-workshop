@@ -1,0 +1,88 @@
+/*Add styling below*/
+/*Add styling below*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #EE6E73;
+    text-align: center;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem;
+}
+
+nav .brand-logo{
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+
+
+/* Style Form */
+.form{
+    max-width: 600px;
+    margin: 0 auto 7rem;
+    padding: 0 15px;
+}
+
+.form input{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #DDD;
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+}
+
+.form button{
+    padding: .5rem .5rem;
+    border-radius: 0;
+    border: 0;
+    background-color: #EE6E73;
+    color: #FFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+/* Style Table */
+.table-container{
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    padding: 0 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+th {
+    background: #EE6E73;
+    color: #fff;
+}
+th, td {
+    border: 1px solid transparent;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background: #ffb4b74b;
+}
+tr:hover {
+    background: #ececec7a;
+}

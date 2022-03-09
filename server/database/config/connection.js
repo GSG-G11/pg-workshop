@@ -1,17 +1,17 @@
 require('env2')('.env');
 const {Pool} = require('pg');
 
-let DB_URL = '';
+let DATABASE_URL = '';
 
-if(!process.env.DB_URL){
+if(!process.env.DATABASE_URL){
     throw new Error ("DB_URL NOT FOUND!");
 }
 else{
-    DB_URL = process.env.DB_URL
+    DATABASE_URL = process.env.DB_URL
 }
 
 const connection = new Pool({
-    connectionString: process.env.DB_URL,
+    connectionString: process.env.DATABASE_URL,
     ssl: false
 });
 
